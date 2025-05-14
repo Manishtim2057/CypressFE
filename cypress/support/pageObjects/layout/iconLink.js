@@ -6,9 +6,7 @@ class icon {
         addButton : () => cy.get('.modal-footer > .btn-primary').click()
     }
     popOver(elementFn){
-        // this.elements(popOverRight).click()
-        // this.elements(popOverLeft).click()
-        // this.elements.click(popOverRight)
+        
         elementFn().click()
     }
 }

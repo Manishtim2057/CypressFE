@@ -1,7 +1,7 @@
-import { removeLayout } from "../../../support/pageObjects/layout/remove"
-import { journeyLayout } from "../../../support/pageObjects/layout/addLayout"
-import { visitUrl } from "../../../support/pageObjects/visitSite/visitSite"
-import { clickEditLayoutButton } from "../../../componentObjects/Layout/layoutButton"
+import { removeLayout } from "../../support/pageObjects/layout/remove"
+import { journeyLayout } from "../../support/pageObjects/layout/addLayout"
+import { visitUrl } from "../../support/pageObjects/visitSite/visitSite"
+import { clickEditLayoutButton } from "../../componentObjects/Layout/layoutButton"
 describe('Remove the Layout if It exists', () => {
     beforeEach(() => {
         cy.viewport(1280, 720)
